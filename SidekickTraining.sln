@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sidekick.Training.WebApi", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sidekick.Training.Services", "src\Leon.Sidekicks.Services\Sidekick.Training.Services.csproj", "{93ED16A0-96A5-402B-AD62-197D3D11F374}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sidekick.Training.Model", "Sidekick.Training.Model\Sidekick.Training.Model.csproj", "{6114B42C-EA36-4C81-A7F9-31CAF41862FF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sidekick.Training.Model", "src\Sidekick.Training.Model\Sidekick.Training.Model.csproj", "{6114B42C-EA36-4C81-A7F9-31CAF41862FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

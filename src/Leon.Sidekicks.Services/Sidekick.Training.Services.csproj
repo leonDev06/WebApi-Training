@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Sidekick.Training.Model\Sidekick.Training.Model.csproj" />
+    <ProjectReference Include="..\Sidekick.Training.Model\Sidekick.Training.Model.csproj" />
   </ItemGroup>
 
 </Project>

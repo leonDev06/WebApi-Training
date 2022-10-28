@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Leon.Sidekicks.Services\Sidekick.Training.Services.csproj" />
+    <ProjectReference Include="..\Sidekick.Training.Model\Sidekick.Training.Model.csproj" />
   </ItemGroup>
 
 </Project>
