@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Sidekick.Training.Model
 {
-    internal class Class1
+    public class User
     {
+        public int Id { get; set; }
+        public string Name { get; set; }  
+        public string Email { get; set; }
+
     }
 }

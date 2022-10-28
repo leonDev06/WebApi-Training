@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sidekick.Training.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,6 @@ namespace Leon.Sidekicks.Services
 {
     public interface IUserService
     {
+        Task<User> GetUserById(int id);
     }
 }

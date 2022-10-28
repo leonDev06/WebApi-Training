@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Leon.Sidekicks.Services;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Sidekick.Training.Model;
 
 namespace Sidekick.Training.WebApi.Controllers
 {
@@ -7,10 +9,20 @@ namespace Sidekick.Training.WebApi.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
+        private readonly IUserService _userService;
+
+        public UserController(IUserService userService)
+        {
+
+        }
+
         [HttpGet]
-        public async Task GetUserById()
+        [Route("{id}")]
+        public async Task<ActionResult<User>> GetUserById()
         {
             Console.WriteLine("GetUserById");
+
+            return await _userService.GetUserById(1);
         }
 
         [HttpPost]
