@@ -13,7 +13,7 @@ namespace Sidekick.Training.WebApi.Controllers
 
         public UserController(IUserService userService)
         {
-
+            _userService = userService;
         }
 
         [HttpGet]
