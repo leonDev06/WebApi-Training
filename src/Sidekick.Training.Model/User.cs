@@ -12,5 +12,20 @@ namespace Sidekick.Training.Model
         public string Name { get; set; }  
         public string Email { get; set; }
 
+
+        // CONSTRUCTORS
+
+        // Default Constructor
+        public User()
+        {
+
+        }
+
+        public User(string name, string email)
+        {
+            Name = name;
+            Email = email;
+        }
+
     }
 }
