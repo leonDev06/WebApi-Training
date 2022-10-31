@@ -9,10 +9,9 @@ namespace Sidekick.Training.Providers.InMemory
 
         public async Task<User> CreateUser(User user)
         {
-            user.Id = _currentId;
+            user.Id = ++_currentId;
             _inMemoryUser.Add(_currentId, user);
             return user;
-            
         }
 
         public async Task<User?> GetUserById(int id)

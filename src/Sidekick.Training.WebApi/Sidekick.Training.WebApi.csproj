@@ -11,8 +11,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Sidekick.Training.WebApi.Models\Sidekick.Training.WebApi.Models.csproj" />
     <ProjectReference Include="..\Leon.Sidekicks.Services\Sidekick.Training.Services.csproj" />
     <ProjectReference Include="..\Sidekick.Training.Model\Sidekick.Training.Model.csproj" />
+    <ProjectReference Include="..\Sidekick.Training.Providers.InMemory\Sidekick.Training.Providers.InMemory.csproj" />
   </ItemGroup>
 
   

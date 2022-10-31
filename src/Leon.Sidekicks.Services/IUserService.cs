@@ -11,5 +11,6 @@ namespace Leon.Sidekicks.Services
     public interface IUserService
     {
         Task<User> GetUserById(int id);
+        Task<User> CreateUser(string name, string emai);
     }
 }
