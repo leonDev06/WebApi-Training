@@ -61,5 +61,9 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\users.sql" />
+    <Build Include="StoredProcedures\usp_CreateUser.sql" />
+    <Build Include="StoredProcedures\usp_GetUserByID.sql" />
+    <Build Include="StoredProcedures\usp_UpdateUserById.sql" />
+    <Build Include="StoredProcedures\usp_DeleteUserById.sql" />
   </ItemGroup>
 </Project>
