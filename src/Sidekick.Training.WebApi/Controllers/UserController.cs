@@ -53,7 +53,7 @@ namespace Sidekick.Training.WebApi.Controllers
         }
 
         [HttpPut]
-        public async Task<bool> UpdateUserById([FromBody] UpdateUserById update)
+        public async Task<bool> UpdateUserById([FromBody] CreateUserResponse update)
         {
             var success = await _userService.UpdateUserById(update.Id, update.Name, update.Email);
 
