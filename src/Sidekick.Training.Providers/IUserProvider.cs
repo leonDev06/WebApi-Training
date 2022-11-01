@@ -1,18 +1,14 @@
 ﻿using Sidekick.Training.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sidekick.Training.Providers
 {
+    // This is the interface for UserProviders. This provides the tasks that would be requested as part of the business logic.
     public interface IUserProvider
     {
+        // Expected requestable tasks.
         Task<User> CreateUser(User user);
         Task<User> GetUserById(int id);
-        Task<bool> UpdateUserById(int id, String name, string email);
+        Task<bool> UpdateUserById(int id, string name, string email);
         Task<bool> DeleteUserById(int id);
-
     }
 }

@@ -5,9 +5,12 @@ using Sidekick.Training.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// ADD SERVICES TO THE CONTAINER
+// Add the service as used by the UserService
 builder.Services.AddScoped<IUserService, UserService>();
+// Add the provider as used by the SQLUserProvider
 builder.Services.AddScoped<IUserProvider, SqlUserProvider>();
+// Add the SQL configuration
 builder.Services.AddOptions<SqlConfig>().Bind(builder.Configuration.GetSection("SqlConfig"));
 
 builder.Services.AddControllers();

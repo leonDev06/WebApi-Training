@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Sidekick.Training.Providers.Sql.Models
+﻿namespace Sidekick.Training.Providers.Sql.Models
 {
+    // This is the SQL configuration. The 'ConnectionString' allows this Api to connect to the database. 
     public class SqlConfig
     {
         public string ConnectionString { get; set; }

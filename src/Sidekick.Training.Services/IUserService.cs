@@ -2,6 +2,9 @@
 
 namespace Sidekick.Training.Services
 {
+    // This is the interface for the UserService. Implemented in UserService Class.
+    // These are the tasks that's going to connect to the controller.
+    // UserController -> UserService -> UserProvider -> SQLUserProvider -> Database
     public interface IUserService
     {
         Task<User> GetUserById(int id);

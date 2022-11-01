@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Sidekick.Training.Providers.Sql.Models
+﻿namespace Sidekick.Training.Providers.Sql.Models
 {
+    // This class stores the created Stored Procedures' names as a string.
+    // These strings references the StoredProcedures in the SQL database.
     public class UserStoredProc
     {
         public const string GetUserById = "usp_GetUserById";

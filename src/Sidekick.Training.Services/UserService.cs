@@ -7,6 +7,7 @@ namespace Sidekick.Training.Services
     {
         private readonly IUserProvider _userProvider;
 
+        // Implementation of the services and connecting the service to the provider.
         public UserService(IUserProvider userProvider)
         {
             _userProvider = userProvider;
