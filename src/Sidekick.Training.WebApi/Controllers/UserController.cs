@@ -56,16 +56,20 @@ namespace Sidekick.Training.WebApi.Controllers
             return response;
         }
 
-    [HttpPut]
-        public async Task UpdateUserById()
+        [HttpPut]
+        public async Task<bool> UpdateUserById([FromBody] UpdateUserById update)
         {
-            Console.WriteLine("UpdateUserById");
+            var success = await _userService.UpdateUserById(update.Id, update.Name, update.Email);
+
+            return success;
         }
 
         [HttpDelete]
-        public async Task DeleteUserById()
+        [Route("{id}")]
+        public async Task<bool> DeleteUserById(int id)
         {
-            Console.WriteLine("DeleteUserById");
+            var success = await _userService.DeleteUserById(id);
+            return success;
         }
     }
 }

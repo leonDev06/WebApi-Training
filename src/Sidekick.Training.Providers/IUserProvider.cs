@@ -11,5 +11,8 @@ namespace Sidekick.Training.Providers
     {
         Task<User> CreateUser(User user);
         Task<User> GetUserById(int id);
+        Task<bool> UpdateUserById(int id, String name, string email);
+        Task<bool> DeleteUserById(int id);
+
     }
 }

@@ -12,5 +12,7 @@ namespace Leon.Sidekicks.Services
     {
         Task<User> GetUserById(int id);
         Task<User> CreateUser(string name, string emai);
+        Task<bool> UpdateUserById(int id, String name, string email);
+        Task<bool> DeleteUserById(int id);
     }
 }

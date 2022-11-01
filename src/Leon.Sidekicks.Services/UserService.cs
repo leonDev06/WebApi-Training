@@ -1,4 +1,5 @@
 ﻿using Leon.Sidekicks.Services;
+using Microsoft.VisualBasic;
 using Sidekick.Training.Model;
 using Sidekick.Training.Providers;
 using System;
@@ -26,6 +27,16 @@ namespace Sidekick.Training.Services
         public async Task<User> CreateUser(string name, string email)
         {
             return await _userProvider.CreateUser(new User(name, email));
+        }
+
+        public async Task<bool> UpdateUserById(int id, string name, string email)
+        {
+            return await _userProvider.UpdateUserById(id, name, email);
+        }
+
+        public async Task<bool> DeleteUserById(int id)
+        {
+            return await _userProvider.DeleteUserById(id);
         }
     }
 }

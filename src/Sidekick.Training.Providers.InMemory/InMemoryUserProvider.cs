@@ -2,7 +2,7 @@
 
 namespace Sidekick.Training.Providers.InMemory
 {
-    public class InMemoryUserProvider : IUserProvider
+    public class InMemoryUserProvider
     {
         private static Dictionary<int, User> _inMemoryUser = new Dictionary<int, User>();
         private static int _currentId = 1;
