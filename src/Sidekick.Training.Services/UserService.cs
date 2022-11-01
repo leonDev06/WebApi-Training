@@ -1,12 +1,5 @@
-﻿using Leon.Sidekicks.Services;
-using Microsoft.VisualBasic;
-using Sidekick.Training.Model;
+﻿using Sidekick.Training.Model;
 using Sidekick.Training.Providers;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sidekick.Training.Services
 {

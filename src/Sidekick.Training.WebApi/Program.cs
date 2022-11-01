@@ -1,6 +1,4 @@
-using Leon.Sidekicks.Services;
 using Sidekick.Training.Providers;
-using Sidekick.Training.Providers.InMemory;
 using Sidekick.Training.Providers.Sql;
 using Sidekick.Training.Providers.Sql.Models;
 using Sidekick.Training.Services;

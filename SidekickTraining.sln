@@ -5,7 +5,7 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sidekick.Training.WebApi", "src\Sidekick.Training.WebApi\Sidekick.Training.WebApi.csproj", "{71E03A31-BB56-4659-821A-B324A0CAE0EF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sidekick.Training.Services", "src\Leon.Sidekicks.Services\Sidekick.Training.Services.csproj", "{93ED16A0-96A5-402B-AD62-197D3D11F374}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sidekick.Training.Services", "src\Sidekick.Training.Services\Sidekick.Training.Services.csproj", "{93ED16A0-96A5-402B-AD62-197D3D11F374}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sidekick.Training.Model", "src\Sidekick.Training.Model\Sidekick.Training.Model.csproj", "{6114B42C-EA36-4C81-A7F9-31CAF41862FF}"
 EndProject
@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sidekick.Training.Providers
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sidekick.Training.Providers.InMemory", "src\Sidekick.Training.Providers.InMemory\Sidekick.Training.Providers.InMemory.csproj", "{DBD16285-5C87-4BF1-887A-84E1B6EE71AC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sidekick.Training.WebApi.Models", "Sidekick.Training.WebApi.Models\Sidekick.Training.WebApi.Models.csproj", "{50A6E900-3003-4E9C-8B47-D45FED9E1A4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sidekick.Training.WebApi.Models", "src\Sidekick.Training.WebApi.Models\Sidekick.Training.WebApi.Models.csproj", "{50A6E900-3003-4E9C-8B47-D45FED9E1A4F}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Sidekick.Training.SQL", "src\Sidekick.Training.SQL\Sidekick.Training.SQL.sqlproj", "{EDB7A710-1465-4B7E-98C6-A5EFAD2F6B35}"
 EndProject

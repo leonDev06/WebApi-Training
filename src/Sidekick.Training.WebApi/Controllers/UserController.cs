@@ -1,11 +1,7 @@
-﻿using Leon.Sidekicks.Services;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Sidekick.Training.Model;
+﻿using Microsoft.AspNetCore.Mvc;
+using Sidekick.Training.Services;
 using Sidekick.Training.WebApi.Models.Request;
-using Sidekick.Training.WebApi.Models.Request.Response;
 using Sidekick.Training.WebApi.Models.Response;
-using System.Reflection.Metadata.Ecma335;
 
 namespace Sidekick.Training.WebApi.Controllers
 {
